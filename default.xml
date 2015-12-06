@@ -19,6 +19,8 @@
            name="musl-toolchains" />
 
   <!-- target components for system-M -->
+  <project path="target/busybox"
+           name="busybox"/>
   <project path="target/musl"
            name="musl"
            remote="git.musl-libc.org"/>

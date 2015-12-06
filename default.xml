@@ -4,9 +4,20 @@
   <remote name="asac_github"
           fetch="https://github.com/asac"/>
   <default remote="asac_github" revision="master"/>
+  <remote name="git.musl-libc.org"
+          fetch="git://git.musl-libc.org/"/>
 
+  <!-- top level elements: manifest, build, etc... -->
   <project path="manifest"
            name="system-M-manifest" />
-  <project path="toolchains"
+
+  <!-- host tools and utilities: toolchain, etc. -->
+  <project path="host/toolchains"
            name="musl-toolchains" />
+
+  <!-- target components for system-M -->
+  <project path="target/musl"
+           name="musl"
+           remote="git.musl-libc.org"/>
+
 </manifest>

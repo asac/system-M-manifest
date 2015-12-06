@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <default remote="asac_github" revision="master"/>
+
   <remote name="asac_github"
           fetch="https://github.com/asac"/>
-  <default remote="asac_github" revision="master"/>
+  <remote name="openssl_github"
+          fetch="https://github.com/openssl"/>
   <remote name="git.musl-libc.org"
           fetch="git://git.musl-libc.org/"/>
 
@@ -19,5 +22,8 @@
   <project path="target/musl"
            name="musl"
            remote="git.musl-libc.org"/>
+  <project path="target/openssl"
+           name="openssl"
+           remote="openssl_github"/>
 
 </manifest>

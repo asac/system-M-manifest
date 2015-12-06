@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="asac_github"
+          fetch="https://github.com/asac"/>
+  <default remote="asac_github" revision="master"/>
+
+  <project path="manifest"
+           name="system-M-manifest" />
+</manifest>

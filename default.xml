@@ -15,7 +15,10 @@
            name="system-M-manifest" />
 
   <!-- host tools and utilities: toolchain, etc. -->
-  <project path="host/toolchains"
+  <project path="tools/snapcraft"
+           name="snapcraft" />
+
+  <project path="tools/toolchains"
            name="musl-toolchains" />
 
   <!-- target components for system-M -->

@@ -5,8 +5,8 @@
 
   <remote name="asac_github"
           fetch="https://github.com/asac"/>
-  <remote name="openssl_github"
-          fetch="https://github.com/openssl"/>
+  <remote name="github"
+          fetch="https://github.com"/>
   <remote name="git.musl-libc.org"
           fetch="git://git.musl-libc.org/"/>
 
@@ -24,8 +24,8 @@
   <project path="target/musl"
            name="musl"
            remote="git.musl-libc.org"/>
-  <project path="target/openssl"
-           name="openssl"
-           remote="openssl_github"/>
+  <project path="target/libressl"
+           name="libressl-portable/portable"
+           remote="github"/>
 
 </manifest>

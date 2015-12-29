@@ -21,6 +21,8 @@
            name="musl-toolchains" />
 
   <!-- target components for system-M -->
+  <project path="target/system-M-init"
+           name="system-M-init"/>
   <project path="target/busybox"
            name="busybox"/>
 

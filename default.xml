@@ -16,7 +16,8 @@
 
   <!-- host tools and utilities: toolchain, etc. -->
   <project path="tools/snapcraft"
-           name="snapcraft" />
+           name="snapcraft"
+           revision="initial-kbuild-support"/>
   <project path="tools/toolchains"
            name="musl-toolchains" />
 
